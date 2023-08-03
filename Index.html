@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ammar Gharaibeh's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            line-height: 1.6em;
+            color: white;
+            background-color: black;
+        }
+        h1 {
+            color: #007b83;
+            text-align: center;
+        }
+        #about-me img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        #bio {
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 10px;
+            margin-top: 20px;
+        }
+        h2, h3 {
+            color: grey;
+        }
+        #skills ul, #experience ul, #education ul {
+            list-style-type: none;
+        }
+        #about-me {
+            display: flex;
+            align-items: center;
+        }
+        #contact-form {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        #contact-form input, #contact-form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        #content {
+            background-image: url("Insight2.JPG");
+            background-position: center;
+            background-size: cover;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Ammar Gharaibeh's Personal Webpage</h1>
+
+    <div id="about-me" class="section" style="background-color: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 15px;">
+    <img src="MyPhoto.JPG" alt="Ammar Gharaibeh" style="width:300px;height:400px;">
+    <div style="background-color: rgba(0, 0, 0, 0.4); padding: 20px; border-radius: 15px;">
+        <h2>About Me</h2>
+        <div id="bio">
+            <p>As an accomplished engineer, Ammar Gharaibeh leads in his field, having worked with advanced analytics tools and technologies, including Chat GPT, Power BI, Power Automate, Power Apps, ETL, SharePoint, and Python libraries such as NumPy, Pandas, and Matplotlib. With a strong knack for developing and deploying machine learning models, he excels at addressing complex challenges with both structured and unstructured data. He showcases leadership skills and instills trust with his efficient project management strategies utilizing tools such as Azure DevOps. With his deep understanding of research design and methods, he presents findings in a clear and engaging manner, ensuring delivery of data-driven solutions and business growth across various industries and contexts.</p>
+        </div>
+    </div>
+</div>
+
+
+    <div id="content">
+
+        <div id="skills" class="section" style="background-color: rgba(0, 0, 0, 0.7);">
+            <h2>Skills</h2>
+            <ul>
+                <li>Chat GBT</li>
+                <li>Power BI, Power Apps, Power Automate</li>
+                <li>ETL, SharePoint</li>
+                <li>Data Governance, Data Profiling, Data Cleansing, Data Exploration</li>
+                <li>Python (NumPy, Pandas, Matplotlib, Scikit-learn)</li>
+                <li>Azure SQL Database, Azure Data Factory</li>
+                <li>Machine Learning Models (Unstructured and Structured Data)</li>
+                <li>Strategy Planner, Azure DevOps</li>
+                <li>Research Design and Methods, Presentations</li>
+            </ul>
+        </div>
+
+        <div id="experience" class="section" style="background-color: rgba(0, 0, 0, 0.7);">
+            <h2>Experience</h2>
+            <ul>
+                <li>Data Scientist at Strategic Affairs, KHCC</li>
+                <li>Previous Experience: Data Engineer Consultant at PwC</li>
+                <li>Previous Experience: Site Engineer at Huawei</li>
+            </ul>
+        </div>
+
+        <div id="education" class="section" style="background-color: rgba(0, 0, 0, 0.7);">
+            <h2>Education</h2>
+            <ul>
+                <li>M.Sc. in Big Data Analytics - Distinction, University of the West of Scotland, Scotland</li>
+                <li>Bachelor's Degree in Telecommunications Engineering, Al- Balqa Applied University, Jordan</li>
+                <li>English Advanced Business Course, LILA Liverpool Institute, England</li>
+            </ul>
+        </div>
+
+        <div id="hobbies" class="section" style="background-color: rgba(0, 0, 0, 0.7);">
+            <h2>Hobbies</h2>
+            <p>Ammar is a fervent reader who enjoys staying up-to-date with the latest advancements in technology and the digital field. He regularly follows digital news, reads blogs, and immerses himself in articles to further his knowledge. In his leisure time, he likes to go swimming.</p>
+        </div>
+
+        <div id="contact" class="section" style="background-color: rgba(0, 0, 0, 0.7);">
+            <h2>Contact Information</h2>
+            <p>Email: gharaibeh.a@hotmail.com</p>
+            <p>Phone: +962 799 010 657</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/ammar-gharaibeh-540b0a157/" target="_blank">Ammar Gharaibeh</a></p>
+        </div>
+
+       </div>
+
+    <div id="contact-form" class="section">
+        <h2>Share Your Thoughts</h2>
+        <form action="https://formspree.io/f/meqbenqq" method="POST">
+            <label>
+                Your Name:
+                <input type="text" name="name" placeholder="Your Name">
+            </label>
+            <label>
+                Your Idea:
+                <textarea name="idea" placeholder="Your Idea"></textarea>
+            </label>
+            <label>
+                Your Question:
+                <input type="text" name="question" placeholder="Your Question">
+            </label>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
